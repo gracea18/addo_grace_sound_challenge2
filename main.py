@@ -1,4 +1,8 @@
 while True:
-    music.play_melody("E B C5 A B G A F ", 120)
+    print("Sound Level" + input.sound_level())
+  
+    if input.sound_level() > 20:
+        music.siren.play()
+
 
 
